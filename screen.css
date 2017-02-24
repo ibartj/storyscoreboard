@@ -1,0 +1,40 @@
+body {
+	font-family: Monospace;
+	background-color: #000;
+	color: #fff;
+	margin: 0px;
+	overflow: hidden;
+}
+#logo {
+	background-position: -29px 0;
+	width: 141px;
+	height: 50px;
+	background-image: url(logo.png);
+	background-clip: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+}
+#center {
+	position: absolute;
+	z-index: 100;
+	text-align: center;
+	width: 100%;
+	top: 20px;
+}
+#top {
+	position: absolute;
+	z-index: 100;
+	text-align: center;
+	width: 100%;
+	top: 80px;
+	font-size: 2em;
+	font-weight: bold;
+}
+#info {
+	font-family: 'Roboto';
+	width: 100%;
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
